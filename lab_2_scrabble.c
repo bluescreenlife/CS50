@@ -39,6 +39,8 @@ int compute_score(string word)
     int score = 0;
     for (int i = 0; i < strlen(word); i++)
     {
+        // subtract ascii value of A/a from ascii value of char in scrabble
+        // word in order to provide index number in points array and assign score
         if (isupper(word[i]))
         {
             score += POINTS[word[i] - 'A'];
