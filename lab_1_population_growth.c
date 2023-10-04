@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    // TODO: Prompt for start size
+    // Prompt for start size
     int start_size;
     do
     {
@@ -28,6 +28,6 @@ int main(void)
         years++;
     }
 
-    // TODO: Print number of years
+    // Print number of years
     printf("Years: %i\n", years);
 }
