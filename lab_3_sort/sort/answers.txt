@@ -1,0 +1,14 @@
+Instructions for assignment: https://cs50.harvard.edu/x/2023/labs/3/
+
+sort1 uses: BUBBLE SORT
+
+How do you know?: Performs faster when numbers are already in sorted order.
+
+sort2 uses: MERGE SORT 
+
+How do you know?: Fastest with large randomized data sets, due to recursive, split-effort nature.
+
+sort3 uses: SELECTION SORT
+
+How do you know?: Slower with numbers already in sorted order, as it has to check each value
+against the rest of the values with each pass.
